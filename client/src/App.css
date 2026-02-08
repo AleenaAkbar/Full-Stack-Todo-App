@@ -1,0 +1,33 @@
+.app {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  margin: 10px 0;
+}
+
+.todo-list button {
+  margin-left: 10px;
+}

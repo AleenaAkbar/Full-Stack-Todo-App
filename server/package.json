@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "start:port": "set PORT=5050 && node index.js",
+    "dev:port": "set PORT=5050 && nodemon index.js",
+    "dev:mem": "set USE_MEMORY=1 && nodemon index.js",
+    "dev:mem:port": "set USE_MEMORY=1 && set PORT=5050 && nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
